@@ -1,0 +1,39 @@
+.header{
+    margin: 0.25rem;
+    padding: 0.5 rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: 600;
+   
+}
+.header_left img{
+    border-radius: 10px;
+}
+.header_left span{
+    font-size: 2rem;
+    margin: 50px;
+}
+a span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+a span:hover{
+    color: red;
+}
+.header_icon{
+    width: 80px;
+    cursor: pointer;
+}
+.user_avtar{
+    font-size: 2rem;
+}
